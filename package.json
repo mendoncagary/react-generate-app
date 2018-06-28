@@ -1,8 +1,8 @@
 {
   "name": "react-starter-app",
   "version": "0.1.0",
-  "description": "Jumpstart your react app\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CA boilerplate to jumpstart your react app",
-  "main": "index.js",
+  "description": "A boilerplate to Jumpstart your react app",
+  "main": "./dist/server.js",
   "scripts": {
     "build": "webpack",
     "build-babel": "npm run build-babel-server && npm run build-babel-client",
@@ -46,6 +46,9 @@
     "react-dom": "^16.4.1"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "./src/enzyme.setup.js"
+    "setupTestFrameworkScriptFile": "./src/enzyme.setup.js",
+    "setupFiles": [
+      "raf/polyfill"
+    ]
   }
 }

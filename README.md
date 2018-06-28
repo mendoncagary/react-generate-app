@@ -1,5 +1,5 @@
 # React-Starter-App
-This is my react-boilerplate
+A boilerplate to Jumpstart your React app
 ## Setup
 npm install
 npm run build
