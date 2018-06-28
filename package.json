@@ -1,0 +1,23 @@
+{
+  "name": "react-starter-app",
+  "version": "0.1.0",
+  "description": "Jumpstart your react app\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CA boilerplate to jumpstart your react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendoncagary/react-starter-app.git"
+  },
+  "keywords": [
+    "node",
+    "react"
+  ],
+  "author": "Gary Mendonca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mendoncagary/react-starter-app/issues"
+  },
+  "homepage": "https://github.com/mendoncagary/react-starter-app#readme"
+}
