@@ -1,6 +1,8 @@
 React-Generate-App
 =========
 
+[![Build Status](https://travis-ci.org/mendoncagary/react-starter-app.svg?branch=master)](https://travis-ci.org/mendoncagary/react-starter-app)
+
 A boilerplate to Jumpstart your React app
 
 ## Installation
