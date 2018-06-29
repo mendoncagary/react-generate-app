@@ -1,5 +1,3 @@
-## Setup
-
 React-Starter-App
 =========
 
@@ -11,7 +9,7 @@ A boilerplate to Jumpstart your React app
 
 ## Usage
 
-    `react-starter-app folderName` to create the project`
+    `react-starter-app folderName` to create the project
 
     `npm run build`
 
