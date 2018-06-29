@@ -10,11 +10,12 @@
     "build-babel-client": "babel src/client --copy-files --out-dir ./dist/public",
     "start": "node ./dist/server.js",
     "test": "jest ./src",
-    "clean": "rimraf dist node_modules"
+    "clean": "rimraf dist node_modules",
+    "cover": "jest --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mendoncagary/react-starter-app.git"
+    "url": "git+https://github.com/mendoncagary/react-generate-app.git"
   },
   "keywords": [
     "node",
@@ -23,14 +24,15 @@
   "author": "Gary Mendonca",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mendoncagary/react-starter-app/issues"
+    "url": "https://github.com/mendoncagary/react-generate-app/issues"
   },
-  "homepage": "https://github.com/mendoncagary/react-starter-app#readme",
+  "homepage": "https://github.com/mendoncagary/react-generate-app#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "coveralls": "^3.0.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "html-webpack-plugin": "^3.2.0",
@@ -53,6 +55,6 @@
     ]
   },
   "bin": {
-    "react-starter-app": "./bin/cli.js"
+    "react-generate-app": "./bin/cli.js"
   }
 }
