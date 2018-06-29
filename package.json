@@ -1,5 +1,5 @@
 {
-  "name": "react-starter-app",
+  "name": "react-generate-app",
   "version": "0.1.0",
   "description": "A boilerplate to Jumpstart your react app",
   "main": "./dist/server.js",

@@ -1,19 +1,19 @@
-React-Starter-App
+React-Generate-App
 =========
 
 A boilerplate to Jumpstart your React app
 
 ## Installation
 
-  `npm install -g react-starter-app`
+  `npm install -g react-generate-app`
 
 ## Usage
 
-    `react-starter-app folderName` to create the project
+   `react-generate-app folderName` to create the project
 
-    `npm run build`
+   `npm run build`
 
-    `npm start`
+   `npm start`
 
 ## Contributing
 
