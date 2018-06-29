@@ -21,7 +21,7 @@
     "react"
   ],
   "author": "Gary Mendonca",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mendoncagary/react-starter-app/issues"
   },

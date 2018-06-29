@@ -15,7 +15,7 @@ const scripts = `"build": "webpack",
     "test": "jest ./src",
     "clean": "rimraf dist node_modules"`;
 
-const jestConfig = `"license": "ISC",
+const jestConfig = `"license": "MIT",
   "jest": {
     "setupTestFrameworkScriptFile": "./src/enzyme.setup.js",
     "setupFiles": [
@@ -57,7 +57,7 @@ exec(
       const data = file
         .toString()
         .replace('"test": "echo \\"Error: no test specified\\" && exit 1"', scripts)
-        .replace('"license": "ISC"', jestConfig);
+        .replace('"license": "MIT"', jestConfig);
       fs.writeFile(packageJSON, data, err2 => err2 || true);
     });
 
